@@ -10,7 +10,7 @@ O projeto é um trabalho em andamento, visando atingir a [Versão 1](https://git
 
 Desejamos que este novo padrão seja compatível com todos os casos de uso do EDIFACT.
 
-Atualmente estamos trabalhando na especificação do [orders](pt-BR/orders.md).
+Atualmente estamos trabalhando na especificação do [orders](orders.md).
 
 ## Contribuições
 
