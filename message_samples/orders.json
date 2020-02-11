@@ -1,17 +1,21 @@
 {
   "langCode": "pt-BR",
-  "message": {
-    "orders": [
-      {
+  "hash": "666d4f8a602ec11165d964ce26e642c3cf513352997491037a95cdcc9c6bc30257606f1077f3aeaaf9ede7b19a1c351ff9a07329339cf8e3c778dec272dbd16a",
+  "orders": [
+    {
+      "order": {
         "docFunction": "N",
-        "buyer": "CNPJ:97755177001292",
+        "buyer": "CNPJ:88887021000111",
+        "delivery": "CNPJ:88887021000111",
         "supplier": "CNPJ:03702130000164",
-        "purchaseOrder": "128282",
+        "seller": "CNPJ:03702130000164",
+        "invoicee": "CNPJ:88887021000111",
+        "purchaseOrder": "298801",
         "purchaseType": "B",
-        "issueDate": "2019-11-11",
+        "issueDate": "2019-10-30",
         "paymentTerms": [
           {
-            "payer": "CNPJ:97755177001292",
+            "payer": "CNPJ:88887021000111",
             "method": "Boleto",
             "type": "Days after invoice",
             "terms": [
@@ -25,45 +29,76 @@
         ],
         "transport": [
           {
-            "transporter": "CNPJ:03702130000164",
+            "transporter": "CNPJ:88887021000111",
             "terms": "CIF"
           }
         ],
-        "currency": "BRL",
-        "grossValue": "43400000",
-        "netValue": "43400000",
+        "contacts": [
+          {
+            "label": "Comprador",
+            "displayName": "Arlei Beck",
+            "type": "e-mail",
+            "uri": "arlei@viamarte.com.br"
+          }
+        ],
+        "currency": "R$",
+        "grossValue": 10000,
+        "netValue": 10000,
         "qtyOfItems": 2,
+        "addInvInfo": "TEXTO A SER IMPRESSO NAS INFORMAÇÕES COMPLEMENTARES DA NF-E",
         "items": [
           {
             "item": 1,
-            "buyerItem": "02",
-            "buyerSpc": "7800286",
-            "buyerSku": "78002866-34",
-            "description": "SOLADO TR P 1402 AP BEGE PV/16 - TR BEGE - 34",
-            "size": "34",
-            "qty": "4000",
-            "mea": "PAR",
-            "unitPrice": "5100",
-            "netUnitPrice": "5100",
-            "deliveryDate": "2019-11-14",
-            "addInvItemInfo": "cProdCliente: \"78002866-34\""
+            "priceList": "NUMERO DO PRICAT",
+            "buyerItem": "01",
+            "buyerSpc": "78001802",
+            "buyerSku": "78001802-33",
+            "articleNumber": "SEM GTIN",
+            "description": "SOLADO TR P 1215 AP PRETO - TR PRETO - 33",
+            "colorCode": "CODIGO DA COR",
+            "color": "DESCRICAO DA COR",
+            "size": "33",
+            "qty": 2,
+            "measurementUnit": "PAR",
+            "unitPrice": 0.75,
+            "netUnitPrice": 0.75,
+            "deliveryDate": "2019-11-07",
+            "deliveryDestination": "CENTRO DE CUSTO OU GLN DA ENTREGA",
+            "productionLine": "LINHA DE FABRICACAO",
+            "productionPlan": "PLANTA",
+            "batch": "LOTE DE PRODUCAO DO ENCOMENDANTE",
+            "taxTransfer": "000",
+            "drawback": "N",
+            "addInvItemInfo": "FATURAR INFORMAÇÃO ADICIONAL DO ITEM NA NF-E exemplo cProdCliente:\"78001802-33\"",
+            "freeText": "OBSERVACAO TEXTO LIVRE NAO AFETA O PRODUTO OU ENTREGA"
           },
           {
             "item": 2,
-            "buyerItem": "01",
-            "buyerSpc": "7800324",
-            "buyerSku": "78003243-37",
-            "description": "SOLADO TR P 1606 AP PRETO (INJETADO NA COR) - TR PRETO - 37",
-            "size": "37",
-            "qty": "5000",
+            "priceList": "NUMERO DO PRICAT",
+            "buyerItem": "02",
+            "buyerSpc": "78001803",
+            "buyerSku": "78001803-34",
+            "articleNumber": "SEM GTIN",
+            "description": "SOLADO TR P 1215 AP PRETO - TR PRETO - 34",
+            "colorCode": "CODIGO DA COR",
+            "color": "DESCRICAO DA COR",
+            "size": "34",
+            "qty": 2,
             "measurementUnit": "PAR",
-            "unitPrice": "4600",
-            "netUnitPrice": "4600",
-            "deliveryDate": "2019-11-14",
-            "addInvItemInfo": "cProdCliente: \"78003243-37\""
+            "unitPrice": 0.75,
+            "netUnitPrice": 0.75,
+            "deliveryDate": "2019-11-07",
+            "deliveryDestination": "CENTRO DE CUSTO OU GLN DA ENTREGA",
+            "productionLine": "LINHA DE FABRICACAO",
+            "productionPlan": "PLANTA",
+            "batch": "LOTE DE PRODUCAO DO ENCOMENDANTE",
+            "taxTransfer": "000",
+            "drawback": "N",
+            "addInvItemInfo": "FATURAR INFORMAÇÃO ADICIONAL DO ITEM NA NF-E exemplo cProdCliente:\"78001803-34\"",
+            "freeText": "OBSERVACAO TEXTO LIVRE NAO AFETA O PRODUTO OU ENTREGA"
           }
         ]
       }
-    ]
-  }
+    }
+  ]
 }
