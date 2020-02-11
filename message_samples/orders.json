@@ -1,0 +1,69 @@
+{
+  "langCode": "pt-BR",
+  "message": {
+    "orders": [
+      {
+        "docFunction": "N",
+        "buyer": "CNPJ:97755177001292",
+        "supplier": "CNPJ:03702130000164",
+        "purchaseOrder": "128282",
+        "purchaseType": "B",
+        "issueDate": "2019-11-11",
+        "paymentTerms": [
+          {
+            "payer": "CNPJ:97755177001292",
+            "method": "Boleto",
+            "type": "Days after invoice",
+            "terms": [
+              {
+                "periodType": "days",
+                "period": 60,
+                "percentage": 100
+              }
+            ]
+          }
+        ],
+        "transport": [
+          {
+            "transporter": "CNPJ:03702130000164",
+            "terms": "CIF"
+          }
+        ],
+        "currency": "BRL",
+        "grossValue": "43400000",
+        "netValue": "43400000",
+        "qtyOfItems": 2,
+        "items": [
+          {
+            "item": 1,
+            "buyerItem": "02",
+            "buyerSpc": "7800286",
+            "buyerSku": "78002866-34",
+            "description": "SOLADO TR P 1402 AP BEGE PV/16 - TR BEGE - 34",
+            "size": "34",
+            "qty": "4000",
+            "mea": "PAR",
+            "unitPrice": "5100",
+            "netUnitPrice": "5100",
+            "deliveryDate": "2019-11-14",
+            "addInvItemInfo": "cProdCliente: \"78002866-34\""
+          },
+          {
+            "item": 2,
+            "buyerItem": "01",
+            "buyerSpc": "7800324",
+            "buyerSku": "78003243-37",
+            "description": "SOLADO TR P 1606 AP PRETO (INJETADO NA COR) - TR PRETO - 37",
+            "size": "37",
+            "qty": "5000",
+            "measurementUnit": "PAR",
+            "unitPrice": "4600",
+            "netUnitPrice": "4600",
+            "deliveryDate": "2019-11-14",
+            "addInvItemInfo": "cProdCliente: \"78003243-37\""
+          }
+        ]
+      }
+    ]
+  }
+}
